@@ -1,3 +1,4 @@
+
 # 🗓️ PlanMyMeet – Meeting Scheduling App
 
 Effortless and smart meeting coordination — built for professionals who value their time.
@@ -5,13 +6,13 @@ Effortless and smart meeting coordination — built for professionals who value 
 ![PlanMyMeet Banner](./public/planmymeet-banner.png) <!-- Replace with actual image path or URL -->
 
 ## 🚀 Live Demo
-[https://plan-my-meet.vercel.app](https://plan-my-meet.vercel.app) <!-- Replace with your actual deployment URL -->
+[Demo](https://plan-my-meet.vercel.app) <!-- Replace with your actual deployment URL -->
 
 ---
 
 ## 📌 Overview
 
-**PlanMyMeet** is a modern meeting scheduling platform that simplifies appointment booking with features like secure login, Google Calendar sync, and real-time availability. Whether you're a freelancer, a team leader, or a remote professional — scheduling meetings has never been this seamless.
+**PlanMyMeet** is a modern meeting scheduling platform that simplifies appointment booking with features like secure login, Google Calendar sync, time zone awareness, and smart suggestions using Gemini AI. Whether you're a freelancer, a team leader, or a remote professional — scheduling meetings has never been this seamless.
 
 ---
 
@@ -20,7 +21,9 @@ Effortless and smart meeting coordination — built for professionals who value 
 - **Frontend:** React, Next.js, Tailwind CSS  
 - **Backend:** Node.js, Prisma, PostgreSQL  
 - **Auth:** Clerk (Email + Google OAuth)  
-- **Integrations:** Google Calendar API (with Google Meet link support)  
+- **APIs & Integrations:**  
+  - Google Calendar API (with Google Meet link support)  
+  - **Gemini API** – AI-based smart suggestions and automation  
 - **Deployment:** Vercel  
 
 ---
@@ -36,12 +39,25 @@ Effortless and smart meeting coordination — built for professionals who value 
 ✅ **Time Zone Support**  
 > PlanMyMeet auto-adjusts for your invitees’ local time zone, ensuring no mismatches.
 
+✅ **Gemini AI Integration**  
+> Use Gemini API to generate smart scheduling suggestions and automate content such as descriptions and meeting titles.
+
 ✅ **Dynamic Testimonials Carousel**  
 > Real user feedback displayed in a slick, auto-playing carousel to boost trust and engagement.
 
 ✅ **Responsive UI & Clean UX**  
 > Built with Tailwind CSS and accessible design practices to ensure a seamless user experience across all devices.
 
+---
+
+## 📸 Screenshots
+
+<!-- Replace image paths with actual screenshots -->
+| Hero Section | Features | Testimonials |
+|--------------|----------|--------------|
+| ![](./public/screens/hero.png) | ![](./public/screens/features.png) | ![](./public/screens/testimonials.png) |
+
+---
 
 ## 🧠 How It Works
 
@@ -77,6 +93,7 @@ GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_frontend_api
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
 4. **Run the development server**
@@ -93,5 +110,8 @@ npm run dev
 * ✉️ Email notifications/reminders
 * 📊 Admin dashboard for insights
 * 🌗 Dark mode toggle
+* 🧠 More AI-powered scheduling flows with Gemini
 
----
+
+*Thanks for checking out PlanMyMeet!* 🎉
+*Simplify scheduling, amplify productivity with AI.*
