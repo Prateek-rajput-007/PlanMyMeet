@@ -42,16 +42,6 @@ Effortless and smart meeting coordination — built for professionals who value 
 ✅ **Responsive UI & Clean UX**  
 > Built with Tailwind CSS and accessible design practices to ensure a seamless user experience across all devices.
 
----
-
-## 📸 Screenshots
-
-<!-- Replace image paths with actual screenshots -->
-| Hero Section | Features | Testimonials |
-|--------------|----------|--------------|
-| ![](./public/screens/hero.png) | ![](./public/screens/features.png) | ![](./public/screens/testimonials.png) |
-
----
 
 ## 🧠 How It Works
 
